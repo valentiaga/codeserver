@@ -1,0 +1,162 @@
+[
+  {
+    "id": "9175e667dff9f6d5212dbdf3",
+    "title": "pantalon cargo",
+    "photo": "cargo.jpg",
+    "category": "pantalon",
+    "price": 33000,
+    "stock": 10000
+  },
+  {
+    "id": "21ed98295d9adb4071b8bf50",
+    "title": "pareo rock",
+    "photo": "pareo.jpg",
+    "category": "pareo",
+    "price": 33000,
+    "stock": 1000
+  },
+  {
+    "id": "2b827071e64c7ff347b25db2",
+    "title": "pareo tull",
+    "photo": "pareotull.jpg",
+    "category": "pareo",
+    "price": 33000,
+    "stock": 10000
+  },
+  {
+    "id": "9a39d68e35ba0f83945091ed",
+    "title": "guantes tull",
+    "photo": "guantes.jpg",
+    "category": "accesorio",
+    "price": 33000,
+    "stock": 5000
+  },
+  {
+    "id": "4a4f306e332eb40641191d9e",
+    "title": "gorro",
+    "photo": "gorro.jpg",
+    "category": "accesorio",
+    "price": 20000,
+    "stock": 1000
+  },
+  {
+    "id": "b2df4a0ab8eba773b2a26816",
+    "title": "bufanda ross",
+    "photo": "bufross.jpg",
+    "category": "accesorio",
+    "price": 25000,
+    "stock": 1000
+  },
+  {
+    "id": "bccda1d6b27369b113012965",
+    "title": "capufanda densell",
+    "photo": "capufanda.jpg",
+    "category": "accesorio",
+    "price": 15000,
+    "stock": 1000
+  },
+  {
+    "id": "01dd0be036f05e4ae8ea0b6b",
+    "title": "medias térmicas",
+    "photo": "medias.jpg",
+    "category": "accesorio",
+    "price": 10000,
+    "stock": 1000
+  },
+  {
+    "id": "f7e18e6c1be5ed37a6cf19bd",
+    "title": "remera térmica",
+    "photo": "remera.jpg",
+    "category": "remeras",
+    "price": 35000,
+    "stock": 1000
+  },
+  {
+    "id": "54d182c6599a5a8a68534b21",
+    "title": "campera puffer",
+    "photo": "campera.jpg",
+    "category": "accesorio",
+    "price": 100000,
+    "stock": 1000
+  },
+  {
+    "id": "117fecde13c94954ee341eed",
+    "title": "pantalon cargo",
+    "photo": "cargo.jpg",
+    "category": "pantalon",
+    "price": 33000,
+    "stock": 10000
+  },
+  {
+    "id": "fc7866c3e89f63892f43e12d",
+    "title": "pareo rock",
+    "photo": "pareo.jpg",
+    "category": "pareo",
+    "price": 33000,
+    "stock": 1000
+  },
+  {
+    "id": "4c03953160c15bdd85b09954",
+    "title": "pareo tull",
+    "photo": "pareotull.jpg",
+    "category": "pareo",
+    "price": 33000,
+    "stock": 10000
+  },
+  {
+    "id": "7769931efa74e10c3c07aaeb",
+    "title": "guantes tull",
+    "photo": "guantes.jpg",
+    "category": "accesorio",
+    "price": 33000,
+    "stock": 5000
+  },
+  {
+    "id": "953a0035d03fc2399bd4c862",
+    "title": "gorro",
+    "photo": "gorro.jpg",
+    "category": "accesorio",
+    "price": 20000,
+    "stock": 1000
+  },
+  {
+    "id": "d4e0376cd7a4831ec4d71ddf",
+    "title": "bufanda ross",
+    "photo": "bufross.jpg",
+    "category": "accesorio",
+    "price": 25000,
+    "stock": 1000
+  },
+  {
+    "id": "a36587f639f31319994830b1",
+    "title": "capufanda densell",
+    "photo": "capufanda.jpg",
+    "category": "accesorio",
+    "price": 15000,
+    "stock": 1000
+  },
+  {
+    "id": "80f5b700fbdfd93067696a81",
+    "title": "medias térmicas",
+    "photo": "medias.jpg",
+    "category": "accesorio",
+    "price": 10000,
+    "stock": 1000
+  },
+  {
+    "id": "a19e0abc3d48d5ec7076a739",
+    "title": "remera térmica",
+    "photo": "remera.jpg",
+    "category": "remeras",
+    "price": 35000,
+    "stock": 1000
+  },
+  {
+    "id": "dda7324bb8cdfacbbf515377",
+    "title": "campera puffer",
+    "photo": "campera.jpg",
+    "category": "accesorio",
+    "price": 100000,
+    "stock": 1000
+  }
+]
