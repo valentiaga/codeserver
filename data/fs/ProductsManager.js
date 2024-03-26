@@ -1,5 +1,5 @@
-const fs = require("fs");
-const crypto = require("crypto");
+import fs from "fs";
+import crypto from "crypto";
 
 class ProductsManager {
   constructor() {
@@ -53,16 +53,17 @@ class ProductsManager {
       console.log(error);
     }
   }
-  async read() {
+  async read(category) {
     try {
       let arrayProducts = await fs.promises.readFile(this.path, "utf-8");
       arrayProducts = JSON.parse(arrayProducts);
-      if (arrayProducts.length === 0) {
-        throw new Error("No hay usuarios");
-      } else {
-        console.log(arrayProducts);
-        return arrayProducts;
+      if (category) {
+        console.log("Category: ", category);
+        arrayProducts = arrayProducts.filter(
+          (each) => each.category === category
+        );
       }
+      return arrayProducts;
     } catch (error) {
       console.log(error);
     }
@@ -71,7 +72,7 @@ class ProductsManager {
     try {
       let arrayProducts = await fs.promises.readFile(this.path, "utf-8");
       arrayProducts = JSON.parse(arrayProducts);
-      let productww = arrayProducts.find((each) => each.id === id);
+      let product = arrayProducts.find((each) => each.id === id);
       if (!product) {
         throw new Error("Not found.");
       } else {
@@ -103,77 +104,80 @@ class ProductsManager {
   }
 }
 
+const productsManager = new ProductsManager();
+export default productsManager;
+
 async function test() {
   try {
     const products = new ProductsManager();
     await products.create({
-      title: "pantalon cargo",
-      photo: "cargo.jpg",
-      category: "pantalon",
+      title: "remera oversized",
+      photo: "remov.jpg",
+      category: "remeras",
       price: 33000,
       stock: 10000,
     });
     await products.create({
-      title: "pareo rock",
-      photo: "pareo.jpg",
+      title: "pareo funk",
+      photo: "pareof.jpg",
       category: "pareo",
       price: 33000,
       stock: 1000,
     });
     await products.create({
-      title: "pareo tull",
-      photo: "pareotull.jpg",
-      category: "pareo",
+      title: "remera dark",
+      photo: "remdark.jpg",
+      category: "remeras",
       price: 33000,
       stock: 10000,
     });
     await products.create({
-      title: "guantes tull",
-      photo: "guantes.jpg",
-      category: "accesorio",
-      price: 33000,
-      stock: 5000,
-    });
-    await products.create({
-      title: "gorro",
-      photo: "gorro.jpg",
-      category: "accesorio",
-      price: 20000,
-      stock: 1000,
-    });
-    await products.create({
-      title: "bufanda ross",
-      photo: "bufross.jpg",
-      category: "accesorio",
-      price: 25000,
-      stock: 1000,
-    });
-    await products.create({
-      title: "capufanda densell",
-      photo: "capufanda.jpg",
+      title: "guantes lana",
+      photo: "guantesl.jpg",
       category: "accesorio",
       price: 15000,
       stock: 1000,
     });
     await products.create({
-      title: "medias térmicas",
-      photo: "medias.jpg",
+      title: "gorro lana",
+      photo: "gorrol.jpg",
       category: "accesorio",
-      price: 10000,
+      price: 12000,
       stock: 1000,
     });
     await products.create({
-      title: "remera térmica",
-      photo: "remera.jpg",
-      category: "remeras",
+      title: "bufanda beaver creek",
+      photo: "bufbc.jpg",
+      category: "accesorio",
+      price: 25000,
+      stock: 1000,
+    });
+    await products.create({
+      title: "capufanda beaver creek",
+      photo: "capufandabc.jpg",
+      category: "accesorio",
+      price: 15000,
+      stock: 1000,
+    });
+    await products.create({
+      title: "vestido tull",
+      photo: "vestido.jpg",
+      category: "vestido",
+      price: 40000,
+      stock: 1000,
+    });
+    await products.create({
+      title: "vestido rock",
+      photo: "vestidorock.jpg",
+      category: "vestido",
       price: 35000,
       stock: 1000,
     });
     await products.create({
-      title: "campera puffer",
-      photo: "campera.jpg",
-      category: "accesorio",
-      price: 100000,
+      title: "campera impermeable",
+      photo: "camperai.jpg",
+      category: "campera",
+      price: 150000,
       stock: 1000,
     });
     await products.read();
@@ -181,4 +185,4 @@ async function test() {
     console.log(error);
   }
 }
-test();
+

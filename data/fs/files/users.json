@@ -1,83 +1,27 @@
 [
   {
-    "id": "94e4a95940705576e660b5c1",
+    "id": "36a97beb66060816492ec229",
     "email": "javierlucrecio@gmail.com",
     "photo": "photo1",
     "password": "pass1",
-    "role": 0
+    "role": 1
   },
   {
-    "id": "c456013bf648ddb10de5516a",
+    "id": "89269c7f19037807f4f569d0",
     "email": "nestorgirolami@gmail.com",
     "photo": "photo2",
     "password": "pass2",
-    "role": 0
+    "role": 1
   },
   {
-    "id": "9511799dcf308c226ce86af9",
+    "id": "664177293bf979197778bd0b",
     "email": "amandakaya@gmail.com",
     "photo": "photo3",
     "password": "pass3",
     "role": 0
   },
   {
-    "id": "20506929f7117e5752728967",
-    "email": "theolocomora@gmail.com",
-    "photo": "photo4",
-    "password": "pass4",
-    "role": 0
-  },
-  {
-    "id": "9d16e26459ff68077d3956d9",
-    "email": "javierlucrecio@gmail.com",
-    "photo": "photo1",
-    "password": "pass1",
-    "role": 0
-  },
-  {
-    "id": "29decfe76023e2828da9f079",
-    "email": "nestorgirolami@gmail.com",
-    "photo": "photo2",
-    "password": "pass2",
-    "role": 0
-  },
-  {
-    "id": "9b7a95b567dc063ae15afbae",
-    "email": "amandakaya@gmail.com",
-    "photo": "photo3",
-    "password": "pass3",
-    "role": 0
-  },
-  {
-    "id": "43e68e54e1b73cb3f03c14d1",
-    "email": "theolocomora@gmail.com",
-    "photo": "photo4",
-    "password": "pass4",
-    "role": 0
-  },
-  {
-    "id": "17b019d4dc5efa036a2e6020",
-    "email": "javierlucrecio@gmail.com",
-    "photo": "photo1",
-    "password": "pass1",
-    "role": 0
-  },
-  {
-    "id": "59a37f29ebb5d2cd787b2a7b",
-    "email": "nestorgirolami@gmail.com",
-    "photo": "photo2",
-    "password": "pass2",
-    "role": 0
-  },
-  {
-    "id": "af9c335eafb5028d19eabc45",
-    "email": "amandakaya@gmail.com",
-    "photo": "photo3",
-    "password": "pass3",
-    "role": 0
-  },
-  {
-    "id": "eb22fe710fb355739442dc9a",
+    "id": "f18e500f1904588d5ece14c5",
     "email": "theolocomora@gmail.com",
     "photo": "photo4",
     "password": "pass4",

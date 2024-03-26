@@ -75,7 +75,7 @@
     "id": "54d182c6599a5a8a68534b21",
     "title": "campera puffer",
     "photo": "campera.jpg",
-    "category": "accesorio",
+    "category": "campera",
     "price": 100000,
     "stock": 1000
   },
@@ -157,6 +157,166 @@
     "photo": "campera.jpg",
     "category": "accesorio",
     "price": 100000,
+    "stock": 1000
+  },
+  {
+    "id": "d32ecde1ac7539cbc940def0",
+    "title": "remera oversized",
+    "photo": "remov.jpg",
+    "category": "remeras",
+    "price": 33000,
+    "stock": 10000
+  },
+  {
+    "id": "d99e55db1b170518af9c743e",
+    "title": "pareo funk",
+    "photo": "pareof.jpg",
+    "category": "pareo",
+    "price": 33000,
+    "stock": 1000
+  },
+  {
+    "id": "9fbf2098a73aa55adcbb19e4",
+    "title": "remera dark",
+    "photo": "remdark.jpg",
+    "category": "remeras",
+    "price": 33000,
+    "stock": 10000
+  },
+  {
+    "id": "5a0bdbb5428e2b61542628ff",
+    "title": "guantes lana",
+    "photo": "guantesl.jpg",
+    "category": "accesorio",
+    "price": 15000,
+    "stock": 1000
+  },
+  {
+    "id": "4d9ea4237bd282b7890c17fe",
+    "title": "gorro lana",
+    "photo": "gorrol.jpg",
+    "category": "accesorio",
+    "price": 12000,
+    "stock": 1000
+  },
+  {
+    "id": "1b47d7028b7e4877b5f98cb6",
+    "title": "bufanda beaver creek",
+    "photo": "bufbc.jpg",
+    "category": "accesorio",
+    "price": 25000,
+    "stock": 1000
+  },
+  {
+    "id": "f29d16d79441b4a6746b022c",
+    "title": "capufanda beaver creek",
+    "photo": "capufandabc.jpg",
+    "category": "accesorio",
+    "price": 15000,
+    "stock": 1000
+  },
+  {
+    "id": "e7d1455c88c39a594ea74483",
+    "title": "vestido tull",
+    "photo": "vestido.jpg",
+    "category": "vestido",
+    "price": 40000,
+    "stock": 1000
+  },
+  {
+    "id": "88bbde3b1113a2e2e55b8a22",
+    "title": "vestido rock",
+    "photo": "vestidorock.jpg",
+    "category": "vestido",
+    "price": 35000,
+    "stock": 1000
+  },
+  {
+    "id": "5a6fe6ad7925f2596542884c",
+    "title": "campera impermeable",
+    "photo": "camperai.jpg",
+    "category": "campera",
+    "price": 150000,
+    "stock": 1000
+  },
+  {
+    "id": "006a0e10d953277df57f015c",
+    "title": "remera oversized",
+    "photo": "remov.jpg",
+    "category": "remeras",
+    "price": 33000,
+    "stock": 10000
+  },
+  {
+    "id": "d8b0d6c4f14270a00f5346bf",
+    "title": "pareo funk",
+    "photo": "pareof.jpg",
+    "category": "pareo",
+    "price": 33000,
+    "stock": 1000
+  },
+  {
+    "id": "ac188f27ae798cb34467712d",
+    "title": "remera dark",
+    "photo": "remdark.jpg",
+    "category": "remeras",
+    "price": 33000,
+    "stock": 10000
+  },
+  {
+    "id": "b3b2dab7ea9398db5bfe1e38",
+    "title": "guantes lana",
+    "photo": "guantesl.jpg",
+    "category": "accesorio",
+    "price": 15000,
+    "stock": 1000
+  },
+  {
+    "id": "78433c8ed354efd5a980aaa1",
+    "title": "gorro lana",
+    "photo": "gorrol.jpg",
+    "category": "accesorio",
+    "price": 12000,
+    "stock": 1000
+  },
+  {
+    "id": "da1fa7501b7c57f37f95ee6b",
+    "title": "bufanda beaver creek",
+    "photo": "bufbc.jpg",
+    "category": "accesorio",
+    "price": 25000,
+    "stock": 1000
+  },
+  {
+    "id": "b16db37242dacea431487b09",
+    "title": "capufanda beaver creek",
+    "photo": "capufandabc.jpg",
+    "category": "accesorio",
+    "price": 15000,
+    "stock": 1000
+  },
+  {
+    "id": "42d7175275e186dbbf8e2a26",
+    "title": "vestido tull",
+    "photo": "vestido.jpg",
+    "category": "vestido",
+    "price": 40000,
+    "stock": 1000
+  },
+  {
+    "id": "e75b8c8689590df07b819009",
+    "title": "vestido rock",
+    "photo": "vestidorock.jpg",
+    "category": "vestido",
+    "price": 35000,
+    "stock": 1000
+  },
+  {
+    "id": "08a2b19ce1fb5f483f90b6ca",
+    "title": "campera impermeable",
+    "photo": "camperai.jpg",
+    "category": "campera",
+    "price": 150000,
     "stock": 1000
   }
 ]
