@@ -1,5 +1,5 @@
-const fs = require("fs");
-const crypto = require("crypto");
+import fs from "fs";
+import crypto from "crypto";
 
 class UsersManager {
   constructor() {
@@ -119,4 +119,7 @@ async function test() {
     console.log(error);
   }
 }
-test();
+/* test();
+ */
+const usersManager = new UsersManager()
+export default usersManager
