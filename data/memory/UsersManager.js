@@ -53,28 +53,28 @@ class UsersManager {
 }
 const gestorUsuarios = new UsersManager();
 
-gestorUsuarios.create({
-  email: "javierlucrecio@gmail.com",
-  photo: "photo1",
-  password: "pass1",
-});
-gestorUsuarios.create({
-  email: "nestorgirolami@gmail.com",
-  photo: "photo2",
-  password: "pass2",
-});
-gestorUsuarios.create({
-  email: "amandakaya@gmail.com",
-  photo: "photo3",
-  password: "pass3",
-});
-gestorUsuarios.create({
-  email: "theolocomora@gmail.com",
-  photo: "photo4",
-  password: "pass4",
-});
+// gestorUsuarios.create({
+//   email: "javierlucrecio@gmail.com",
+//   photo: "photo1",
+//   password: "pass1",
+// });
+// gestorUsuarios.create({
+//   email: "nestorgirolami@gmail.com",
+//   photo: "photo2",
+//   password: "pass2",
+// });
+// gestorUsuarios.create({
+//   email: "amandakaya@gmail.com",
+//   photo: "photo3",
+//   password: "pass3",
+// });
+// gestorUsuarios.create({
+//   email: "theolocomora@gmail.com",
+//   photo: "photo4",
+//   password: "pass4",
+// });
 
 
-console.log(gestorUsuarios.read());
-// console.log(gestorUsuarios.readOne(1));
+// console.log(gestorUsuarios.read());
+// // console.log(gestorUsuarios.readOne(1));
 

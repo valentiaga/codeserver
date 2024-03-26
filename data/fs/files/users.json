@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "36a97beb66060816492ec229",
+    "email": "javierlucrecio@gmail.com",
+    "photo": "photo1",
+    "password": "pass1",
+    "role": 1
+  },
+  {
+    "id": "89269c7f19037807f4f569d0",
+    "email": "nestorgirolami@gmail.com",
+    "photo": "photo2",
+    "password": "pass2",
+    "role": 1
+  },
+  {
+    "id": "664177293bf979197778bd0b",
+    "email": "amandakaya@gmail.com",
+    "photo": "photo3",
+    "password": "pass3",
+    "role": 0
+  },
+  {
+    "id": "f18e500f1904588d5ece14c5",
+    "email": "theolocomora@gmail.com",
+    "photo": "photo4",
+    "password": "pass4",
+    "role": 0
+  }
+]
